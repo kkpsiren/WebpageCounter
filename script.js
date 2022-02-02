@@ -1,15 +1,3 @@
-// help from
-// https://www.codeleaks.io/get-url-parameter-javascript/
-// https://contactmentor.com/build-website-visitor-counter-javascript/
-// https://webpagecounter.kipttl.repl.co/?ref=twitter
-
-// improvements: instead of ref. look at the value. 
-// make dict
-// generate new value to dict if not exist
-// dict[value] += 1
-// show dict
-
-
 // get params
 const QueryString = window.location.search; 
 const urlParams = new URLSearchParams(QueryString); 
